@@ -17,9 +17,9 @@ struct Question {
     let rightAnswer: String
     
     //The initialiser needs to be updated to match the new multiple choice quiz data. 
-    init(q: String, a: [String], correctAnswer: String) {
-        text = q
-        answers = a
+    init(question: String, AnswerChoice: [String], correctAnswer: String) {
+        text = question
+        answers = AnswerChoice
         rightAnswer = correctAnswer
     }
 }
